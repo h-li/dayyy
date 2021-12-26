@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- Bootstrap JavaScripts -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Ion Icons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- Custom CSS -->
+    <!-- <link rel="stylesheet" href="./css/light.css"> -->
+    <link rel="stylesheet" href="./css/loader.css">
+    <!-- Custom Scripts -->
+    <script src="./js/sha1.js"></script>
+    <script src="./js/static.js"></script>
+    <script src="./js/helper.js"></script>
+    <script src="./js/service.js"></script>
+    <script src="./js/main.js"></script>
+    <title>💚</title>
+    <script src="https://cdn.jsdelivr.net/gh/bramkragten/custom-ui@master/swipe-card/swipe-card.js"></script>
+    <style>
+        body {
+            background-color: tomato;
+        }
+        
+        .card {
+            height: 200px;
+            margin-left: 50%;
+            transform: translate(-50%,50%);
+            width: 85%;
+            border: none;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(() => {
+            const swiper = new Swiper('.swiper', {
+            speed: 400,
+            spaceBetween: 100,
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="card shadow rounded-lg mt-4 mb-4 small" style="background-color: #1C6DD0; color: #FFF8F3;">
+        <nav class="navbar mt-4" style="transform: translateX(-4%);">
+            <div class="col-4"></div>
+            <div class="col-3 text-center" style="padding: 0; font-size: 90%;"> 2 号线</div>
+            <div class="col-4"></div>
+        </nav>
+       
+        <nav class="navbar" style="transform: translate(-4%,-50%);">
+            <div class="font-weight-bolder text-center col-4" style="padding: 0">Flinders<br>Street</div>
+            <div>站</div>
+            <div class="col-2 text-center" style="padding: 0">
+                <svg t="1640530571581" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="13204" width="45%"><path d="M128 554.666667a42.666667 42.666667 0 0 0 0 85.333333h752.213333c38.656 0 57.386667-47.317333 29.184-73.813333l-227.285333-213.333334a42.666667 42.666667 0 1 0-58.410667 62.293334L772.394667 554.666667H128z" fill="#ffffff" p-id="13205"></path></svg>
+            </div>
+            <div class="font-weight-bolder text-center col-4" style="padding: 0;">Melbourne<br>Central</div>
+            <div>站</div>
+        </nav>
+        
+        <nav class="navbar font-weight-light" style="transform: translateY(-80%); padding: 0;">
+            <div class="col-8 text-center">2021 年 12 月 28 日 12:21 开</div>
+            <div class="col-4 text-center">2 站台上车</div>
+        </nav>
+        
+    </div>
+    <div class="card shadow rounded-lg mt-4 mb-4" style="background-color: #00A19D; color: #FFF8E5;"></div>
+    <div class="card shadow rounded-lg mt-4 mb-4" style="background-color: #FDF5CA;"></div>
+    <div class="disruption"></div>
+    
+    <div class="swiper"></div>
+</body>
+</html>

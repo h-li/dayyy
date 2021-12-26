@@ -1,0 +1,14 @@
+:root {
+    --pageBg: #6998AB;
+}
+
+body {
+    /* background-color: #FF8585; */ /* Warm */
+    /* background-color: #6998AB; */ /* Cold */
+    background-color: var(--pageBg);
+    color: #fff;
+}
+
+/* button {
+    color: var(--pageBg) !important;
+} */
